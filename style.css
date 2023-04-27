@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;600&family=Rubik:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+font-family: 'Rubik', sans-serif;
+    
+
+}
+
+.container{
+    height: 150vh;
+    padding: 50px;
+    position: relative;
+}
+.container-2{
+    height: 150vh;
+    background-color: black
+
+
+}
+
+.img-section img{
+    /* position: relative; */
+    width: 700px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+
+
+}
+
+.navbar{
+    backdrop-filter: blur(10px) saturate(169%);
+    -webkit-backdrop-filter: blur(10px) saturate(169%);
+    background-color: rgba(88, 86, 86, 0.64);
+    border-radius: 12px;
+    border: 1px solid rgba(176, 178, 180, 0.3);
+
+    width: 1140px;
+    height: 40px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    position: absolute;
+    color: white;
+}
+
+
+.navbar img{
+    width: 40px;
+    height: 40px;
+    margin-right: 1100px;
+    /* background-color: aliceblue; */
+    display: flex;
+
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.navbar span{
+    width: 1100px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    list-style: none;
+    font-weight: 100;
+    font-size: smaller;
+}
+
+
+.navbar ol{
+    width: 500px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    /* font-weight: 100; */
+    /* font-size: smaller; */
+}
+.navbar button{
+     margin-left: 240px;
+     width: 50px;
+     height: 30px;
+     border-radius: 10px;
+     border: 1px solid black;
+     font-size: smaller;
+     font-weight: 600;
+}
+.text-section{
+    color: rgb(185, 178, 178);
+    /* border: 1px solid red; */
+    width: 250px;
+    word-spacing:2px;
+    height: 200px;
+    margin-top: -300px;
+    margin-left: 800px;
+    font-weight: 100px;
+    font-size: smaller;
+}
+.button-2{
+    width: 220px;
+    margin-top: 50px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+    
+    
+}
+.button-2 button{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: smaller;
+    
+
+
+}
+.button-2 :first-child{
+    background-color: rgb(35, 240, 172);
+}
+
+.delloit{
+    color: rgb(165, 164, 164);
+    margin-top: 100px;
+    margin-left: 300px;
+    font-weight: 100;
+    font-size: medium;
+}
+.ol-2 ol{
+    margin-top: 50px;
+    color: white;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: -150px;
+    font-size: 20px;
+    font-weight: bold;
+    /* justify-content: center; */
+
+}
+.downbar{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+    backdrop-filter: blur(10px) saturate(169%);
+    -webkit-backdrop-filter: blur(10px) saturate(169%);
+    background-color: rgb(158, 198, 198,0.8);
+    border-radius: 12px;
+    border: 1px solid rgba(142, 186, 229, 0.3);
+
+
+    width: 900px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 120px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    color: white;
+    /* background-color: rgba(174, 209, 209, 0.3); */
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.downbar span{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.downbar h1{
+    width: 300px;
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    flex-direction: column;
+    font-size: 40px;
+    /* justify-content: space-between; */
+}
+.downbar p{
+    width: 300px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 100;
+    font-size: smaller;
+    
+    
+}
